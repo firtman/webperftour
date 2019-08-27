@@ -1,0 +1,19 @@
+{
+  "name": "webperf-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "forever -w server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "express-static-gzip": "^2.0.3",
+    "forever": "^1.0.0",
+    "sleep": "^6.1.0"
+  }
+}
